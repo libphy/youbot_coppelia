@@ -1,0 +1,566 @@
+<?xml version="1.0"?>
+<robot name="youBot">
+    <link name="robot_base">
+        <inertial>
+            <origin rpy="-1.571802 -1.570796 0.000000" xyz="-0.174954 0.029618 0.064566" />
+            <inertia izz="0.35410320435204" ixz="-0.018005319708513" ixx="1.4281711336926" ixy="3.9137862136688e-05" iyy="1.1913690714454" iyz="0.00077643776465207" />
+            <mass value="10.0" />
+        </inertial>
+        <collision name="youBot">
+            <origin xyz="-0.174856 0.025042 0.064400" rpy="-1.570796 -1.570796 0.000000" />
+            <geometry>
+                <box size="0.097052 0.153841 0.570105" />
+            </geometry>
+        </collision>
+        <collision name="youBot">
+            <origin xyz="-0.174743 0.176250 0.058596" rpy="1.570796 3.141593 1.570796" />
+            <geometry>
+                <box size="0.050799 0.087727 0.357030" />
+            </geometry>
+        </collision>
+        <collision name="youBot">
+            <origin xyz="-0.175000 0.025042 0.055197" rpy="-1.570796 -1.570796 0.000000" />
+            <geometry>
+                <box size="0.078647 0.235196 0.541198" />
+            </geometry>
+        </collision>
+        <collision name="youBot">
+            <origin xyz="-0.175043 -0.123750 0.058596" rpy="1.570796 3.141593 1.570796" />
+            <geometry>
+                <box size="0.050799 0.087727 0.357030" />
+            </geometry>
+        </collision>
+        <collision name="youBot">
+            <origin xyz="-0.175000 0.025042 0.057130" rpy="0.000000 -1.570796 0.000000" />
+            <geometry>
+                <box size="0.082511 0.247818 0.333459" />
+            </geometry>
+        </collision>
+        <collision name="youBot">
+            <origin xyz="-0.212000 -0.236986 0.150385" rpy="1.624224 4.712388 1.424868" />
+            <geometry>
+                <box size="0.006898 0.026477 0.075109" />
+            </geometry>
+        </collision>
+        <collision name="youBot">
+            <origin xyz="-0.139000 -0.236986 0.150385" rpy="0.095804 4.712340 -0.003302" />
+            <geometry>
+                <box size="0.006898 0.026477 0.075109" />
+            </geometry>
+        </collision>
+        <collision name="youBot">
+            <origin xyz="-0.291000 -0.223986 0.150385" rpy="1.448796 4.712348 1.425761" />
+            <geometry>
+                <box size="0.006898 0.026477 0.075109" />
+            </geometry>
+        </collision>
+        <collision name="youBot">
+            <origin xyz="-0.059000 -0.223986 0.150385" rpy="0.624100 4.712383 -0.357067" />
+            <geometry>
+                <box size="0.006898 0.026477 0.075109" />
+            </geometry>
+        </collision>
+        <collision name="youBot">
+            <origin xyz="-0.271000 -0.047986 0.150385" rpy="-1.141399 4.712379 -1.192106" />
+            <geometry>
+                <box size="0.006898 0.049642 0.075109" />
+            </geometry>
+        </collision>
+        <collision name="youBot">
+            <origin xyz="-0.079000 -0.047986 0.150385" rpy="-0.232527 4.712385 -0.575564" />
+            <geometry>
+                <box size="0.006898 0.049642 0.075109" />
+            </geometry>
+        </collision>
+        <collision name="youBot">
+            <origin xyz="-0.284000 -0.139986 0.150385" rpy="-0.873557 4.712385 -0.828139" />
+            <geometry>
+                <box size="0.006898 0.083941 0.148350" />
+            </geometry>
+        </collision>
+        <collision name="youBot">
+            <origin xyz="-0.065000 -0.139986 0.150385" rpy="-0.747609 4.712386 -0.692289" />
+            <geometry>
+                <box size="0.006898 0.083941 0.148350" />
+            </geometry>
+        </collision>
+        <collision name="youBot">
+            <origin xyz="-0.175000 -0.122986 0.150385" rpy="-1.570796 -1.570796 0.000000" />
+            <geometry>
+                <box size="0.006898 0.167882 0.245830" />
+            </geometry>
+        </collision>
+        <collision name="youBot">
+            <origin xyz="-0.174998 0.191218 0.144673" rpy="-3.141593 3.141593 1.865350" />
+            <geometry>
+                <cylinder length="0.064189240336418" radius="0.077675476670265" />
+            </geometry>
+        </collision>
+        <collision name="youBot">
+            <origin xyz="-0.175832 0.103304 0.132089" rpy="1.570796 3.141648 1.570797" />
+            <geometry>
+                <box size="0.050077 0.066455 0.085242" />
+            </geometry>
+        </collision>
+        <visual name="ME_Platfo2_sub1">
+            <origin xyz="-0.000000 -0.000000 -0.000000" rpy="-3.141593 3.141593 -3.141593" />
+            <geometry>
+                <mesh filename="file://D:/LegionPro5/Documents/coppeliasim_projects/youbot_coppelia/youbot_test_export_urdf_ME_Platfo2_sub1_vis_1.dae" />
+            </geometry>
+            <material name="ME_Platfo2_sub1_material">
+                <color rgba="0.682353 0.682353 0.682353 1.0" />
+            </material>
+        </visual>
+        <visual name="ME_Platfo2_sub1">
+            <origin xyz="-0.000000 -0.000000 -0.000000" rpy="-3.141593 3.141593 -3.141593" />
+            <geometry>
+                <mesh filename="file://D:/LegionPro5/Documents/coppeliasim_projects/youbot_coppelia/youbot_test_export_urdf_ME_Platfo2_sub1_vis_2.dae" />
+            </geometry>
+            <material name="ME_Platfo2_sub1_material">
+                <color rgba="0.288235 0.288235 0.288235 1.0" />
+            </material>
+        </visual>
+        <visual name="ME_Platfo2_sub1">
+            <origin xyz="-0.000000 -0.000000 -0.000000" rpy="-3.141593 3.141593 -3.141593" />
+            <geometry>
+                <mesh filename="file://D:/LegionPro5/Documents/coppeliasim_projects/youbot_coppelia/youbot_test_export_urdf_ME_Platfo2_sub1_vis_3.dae" />
+            </geometry>
+            <material name="ME_Platfo2_sub1_material">
+                <color rgba="1.000000 1.000000 1.000000 1.0" />
+            </material>
+        </visual>
+        <visual name="Rectangle">
+            <origin xyz="-0.000000 -0.000000 -0.000000" rpy="-3.141593 3.141593 -3.141593" />
+            <geometry>
+                <mesh filename="file://D:/LegionPro5/Documents/coppeliasim_projects/youbot_coppelia/youbot_test_export_urdf_Rectangle_vis_1.dae" />
+            </geometry>
+            <material name="Rectangle_material">
+                <color rgba="0.682353 0.682353 0.682353 1.0" />
+            </material>
+        </visual>
+        <visual name="Rectangle13">
+            <origin xyz="-0.178509 -0.076171 0.173331" rpy="3.140672 3.141283 -1.585401" />
+            <geometry>
+                <box size="0.040000 0.040000 0.040000" />
+            </geometry>
+            <material name="Rectangle13_material">
+                <color rgba="0.798406 0.915331 1.000000 1.0" />
+            </material>
+        </visual>
+    </link>
+    <joint type="revolute" name="Joint">
+        <axis xyz="0 0 1" />
+        <limit velocity="6.2831854820251" effort="2.5" lower="-0.17453292012215" upper="0.17453292012215" />
+        <parent link="robot_base" />
+        <child link="Rectangle0" />
+        <origin xyz="-0.175000 0.253042 0.050369" rpy="-1.570796 3.141593 -3.141593" />
+    </joint>
+    <link name="Rectangle0">
+        <inertial>
+            <origin rpy="1.570796 3.141593 -3.141593" xyz="0.000000 0.000000 0.000000" />
+            <inertia izz="0.070875352799507" ixz="0.0" ixx="0.0031192086806629" ixy="0.0" iyy="0.070875352799507" iyz="0.0" />
+            <mass value="2.0" />
+        </inertial>
+        <collision name="Rectangle0">
+            <origin xyz="0.000000 0.000000 0.000000" rpy="1.570796 3.141593 -3.141593" />
+            <geometry>
+                <box size="0.200000 0.030000 0.030000" />
+            </geometry>
+        </collision>
+    </link>
+    <joint type="revolute" name="youBotArmJoint0">
+        <axis xyz="0 0 1" />
+        <limit velocity="6.2831854820251" effort="100.0" lower="-2.9496064186096" upper="2.9496064186096" />
+        <parent link="robot_base" />
+        <child link="Rectangle22" />
+        <origin xyz="-0.174998 0.191218 0.144673" rpy="-3.141593 3.141593 -3.141593" />
+    </joint>
+    <link name="Rectangle22">
+        <inertial>
+            <origin rpy="3.141593 3.919384 1.570797" xyz="-0.005194 0.005586 0.079849" />
+            <inertia izz="0.011667041789173" ixz="0.0024565541604696" ixx="0.022019159960585" ixy="0.00074193224036107" iyy="0.019511084374091" iyz="0.0042853634727803" />
+            <mass value="1.2999999523163" />
+        </inertial>
+        <collision name="Rectangle22">
+            <origin xyz="0.027428 -0.007204 0.050530" rpy="-3.141593 4.684256 1.570796" />
+            <geometry>
+                <box size="0.026512 0.046407 0.116065" />
+            </geometry>
+        </collision>
+        <collision name="Rectangle22">
+            <origin xyz="-0.021529 -0.019050 0.080732" rpy="0.000000 3.919384 1.570796" />
+            <geometry>
+                <box size="0.027029 0.043185 0.137620" />
+            </geometry>
+        </collision>
+        <collision name="Rectangle22">
+            <origin xyz="-0.017548 0.030590 0.096169" rpy="-1.234858 3.072169 0.019319" />
+            <geometry>
+                <sphere radius="0.042699478566647" />
+            </geometry>
+        </collision>
+        <collision name="Rectangle22">
+            <origin xyz="0.025970 -0.031445 0.059890" rpy="-2.443461 3.141593 -3.141593" />
+            <geometry>
+                <box size="0.040000 0.040000 0.040000" />
+            </geometry>
+        </collision>
+        <visual name="ME_Arm1_m0_sub0_sub0">
+            <origin xyz="0.174998 -0.191218 -0.144673" rpy="3.141593 3.141593 3.141593" />
+            <geometry>
+                <mesh filename="file://D:/LegionPro5/Documents/coppeliasim_projects/youbot_coppelia/youbot_test_export_urdf_ME_Arm1_m0_sub0_sub0_vis_1.dae" />
+            </geometry>
+            <material name="ME_Arm1_m0_sub0_sub0_material">
+                <color rgba="1.000000 0.618298 0.265957 1.0" />
+            </material>
+        </visual>
+    </link>
+    <joint type="revolute" name="youBotArmJoint1">
+        <axis xyz="0 0 1" />
+        <limit velocity="6.2831854820251" effort="100.0" lower="-1.5707963705063" upper="1.308996796608" />
+        <parent link="Rectangle22" />
+        <child link="Rectangle10" />
+        <origin xyz="0.039452 0.033010 0.101226" rpy="0.000000 1.570796 0.000000" />
+    </joint>
+    <link name="Rectangle10">
+        <inertial>
+            <origin rpy="-1.570799 3.141594 -1.498635" xyz="-0.075970 0.001014 -0.010672" />
+            <inertia izz="0.0041175925560813" ixz="0.00027072270710431" ixx="0.02352187844455" ixy="2.3210318263705e-05" iyy="0.023251191369242" iyz="0.00014968539383729" />
+            <mass value="1.2999999523163" />
+        </inertial>
+        <collision name="Rectangle10">
+            <origin xyz="-0.073951 0.001233 -0.021715" rpy="3.069074 1.570796 0.000000" />
+            <geometry>
+                <box size="0.035906 0.065357 0.219460" />
+            </geometry>
+        </collision>
+        <collision name="Rectangle10">
+            <origin xyz="-0.080524 0.000010 0.025261" rpy="3.100480 4.605351 0.043366" />
+            <geometry>
+                <box size="0.020468 0.021818 0.106079" />
+            </geometry>
+        </collision>
+        <collision name="Rectangle10">
+            <origin xyz="-0.080210 0.000856 0.007843" rpy="-0.000000 -1.570796 0.000000" />
+            <geometry>
+                <box size="0.025630 0.053557 0.132610" />
+            </geometry>
+        </collision>
+        <collision name="Rectangle10">
+            <origin xyz="0.000000 -0.000000 0.011700" rpy="0.000000 3.141637 -2.292710" />
+            <geometry>
+                <cylinder length="0.01910188794136" radius="0.016929384320974" />
+            </geometry>
+        </collision>
+        <collision name="Rectangle10">
+            <origin xyz="-0.154999 -0.000100 0.002700" rpy="-0.000006 3.141583 -3.078127" />
+            <geometry>
+                <cylinder length="0.019100591540337" radius="0.016929149627686" />
+            </geometry>
+        </collision>
+        <visual name="ME_Arm2_13_sub0">
+            <origin xyz="0.245899 -0.224228 0.135546" rpy="-0.000000 -1.570796 0.000000" />
+            <geometry>
+                <mesh filename="file://D:/LegionPro5/Documents/coppeliasim_projects/youbot_coppelia/youbot_test_export_urdf_ME_Arm2_13_sub0_vis_1.dae" />
+            </geometry>
+            <material name="ME_Arm2_13_sub0_material">
+                <color rgba="1.000000 0.618298 0.265957 1.0" />
+            </material>
+        </visual>
+        <visual name="ME_Arm2_13_sub0">
+            <origin xyz="0.245899 -0.224228 0.135546" rpy="-0.000000 -1.570796 0.000000" />
+            <geometry>
+                <mesh filename="file://D:/LegionPro5/Documents/coppeliasim_projects/youbot_coppelia/youbot_test_export_urdf_ME_Arm2_13_sub0_vis_2.dae" />
+            </geometry>
+            <material name="ME_Arm2_13_sub0_material">
+                <color rgba="1.000000 0.618298 0.265957 1.0" />
+            </material>
+        </visual>
+        <visual name="ME_Arm2_13_sub0">
+            <origin xyz="0.245899 -0.224228 0.135546" rpy="-0.000000 -1.570796 0.000000" />
+            <geometry>
+                <mesh filename="file://D:/LegionPro5/Documents/coppeliasim_projects/youbot_coppelia/youbot_test_export_urdf_ME_Arm2_13_sub0_vis_3.dae" />
+            </geometry>
+            <material name="ME_Arm2_13_sub0_material">
+                <color rgba="0.217647 0.217647 0.217647 1.0" />
+            </material>
+        </visual>
+        <visual name="Cylinder">
+            <origin xyz="0.245899 -0.224228 0.135546" rpy="-0.000000 -1.570796 0.000000" />
+            <geometry>
+                <mesh filename="file://D:/LegionPro5/Documents/coppeliasim_projects/youbot_coppelia/youbot_test_export_urdf_Cylinder_vis_1.dae" />
+            </geometry>
+            <material name="Cylinder_material">
+                <color rgba="0.217647 0.217647 0.217647 1.0" />
+            </material>
+        </visual>
+    </link>
+    <joint type="revolute" name="youBotArmJoint2">
+        <axis xyz="0 0 1" />
+        <limit velocity="6.2831854820251" effort="100.0" lower="-2.2863812446594" upper="2.2863812446594" />
+        <parent link="Rectangle10" />
+        <child link="Rectangle9" />
+        <origin xyz="-0.155000 -0.000100 -0.009000" rpy="3.141593 3.141593 3.141593" />
+    </joint>
+    <link name="Rectangle9">
+        <inertial>
+            <origin rpy="1.570798 3.141587 -1.570856" xyz="-0.063735 0.001039 -0.053178" />
+            <inertia izz="0.0040006497039641" ixz="-1.4333521150053e-05" ixx="0.023401101809564" ixy="3.8776311242186e-05" iyy="0.024166565522493" iyz="-0.00073744857012316" />
+            <mass value="1.2999999523163" />
+        </inertial>
+        <collision name="Rectangle9">
+            <origin xyz="-0.067379 0.001523 -0.044349" rpy="3.141593 1.570796 0.000000" />
+            <geometry>
+                <box size="0.030587 0.063788 0.191922" />
+            </geometry>
+        </collision>
+        <collision name="Rectangle9">
+            <origin xyz="-0.085074 0.000921 -0.082610" rpy="0.000000 4.345870 -0.000000" />
+            <geometry>
+                <box size="0.022125 0.022275 0.066042" />
+            </geometry>
+        </collision>
+        <collision name="Rectangle9">
+            <origin xyz="-0.050807 0.000413 -0.061849" rpy="0.000001 4.577649 -0.000001" />
+            <geometry>
+                <box size="0.027891 0.057639 0.157907" />
+            </geometry>
+        </collision>
+        <collision name="Rectangle9">
+            <origin xyz="-0.134849 -0.000050 -0.061700" rpy="3.141586 3.141602 3.078124" />
+            <geometry>
+                <cylinder length="0.019100558012724" radius="0.016929179430008" />
+            </geometry>
+        </collision>
+        <visual name="ME_Arm3_01_sub1_sub0_sub0">
+            <origin xyz="0.400899 -0.224128 0.144546" rpy="-0.000000 -1.570796 0.000000" />
+            <geometry>
+                <mesh filename="file://D:/LegionPro5/Documents/coppeliasim_projects/youbot_coppelia/youbot_test_export_urdf_ME_Arm3_01_sub1_sub0_sub0_vis_1.dae" />
+            </geometry>
+            <material name="ME_Arm3_01_sub1_sub0_sub0_material">
+                <color rgba="1.000000 0.618298 0.265957 1.0" />
+            </material>
+        </visual>
+        <visual name="ME_Arm3_01_sub1_sub0_sub0">
+            <origin xyz="0.400899 -0.224128 0.144546" rpy="-0.000000 -1.570796 0.000000" />
+            <geometry>
+                <mesh filename="file://D:/LegionPro5/Documents/coppeliasim_projects/youbot_coppelia/youbot_test_export_urdf_ME_Arm3_01_sub1_sub0_sub0_vis_2.dae" />
+            </geometry>
+            <material name="ME_Arm3_01_sub1_sub0_sub0_material">
+                <color rgba="1.000000 0.618298 0.265957 1.0" />
+            </material>
+        </visual>
+        <visual name="ME_Arm3_01_sub1_sub0_sub0">
+            <origin xyz="0.400899 -0.224128 0.144546" rpy="-0.000000 -1.570796 0.000000" />
+            <geometry>
+                <mesh filename="file://D:/LegionPro5/Documents/coppeliasim_projects/youbot_coppelia/youbot_test_export_urdf_ME_Arm3_01_sub1_sub0_sub0_vis_3.dae" />
+            </geometry>
+            <material name="ME_Arm3_01_sub1_sub0_sub0_material">
+                <color rgba="0.217647 0.217647 0.217647 1.0" />
+            </material>
+        </visual>
+        <visual name="Cylinder1">
+            <origin xyz="0.400899 -0.224128 0.144546" rpy="-0.000000 -1.570796 0.000000" />
+            <geometry>
+                <mesh filename="file://D:/LegionPro5/Documents/coppeliasim_projects/youbot_coppelia/youbot_test_export_urdf_Cylinder1_vis_1.dae" />
+            </geometry>
+            <material name="Cylinder1_material">
+                <color rgba="0.217647 0.217647 0.217647 1.0" />
+            </material>
+        </visual>
+    </link>
+    <joint type="revolute" name="youBotArmJoint3">
+        <axis xyz="0 0 1" />
+        <limit velocity="6.2831854820251" effort="100.0" lower="-1.7802357673645" upper="1.7802357673645" />
+        <parent link="Rectangle9" />
+        <child link="Rectangle8" />
+        <origin xyz="-0.134850 -0.000050 -0.050000" rpy="3.141593 3.141593 3.141593" />
+    </joint>
+    <link name="Rectangle8">
+        <inertial>
+            <origin rpy="-1.570796 3.141592 1.570741" xyz="-0.038397 0.000215 0.029352" />
+            <inertia izz="0.0057535870537658" ixz="6.5111444029888e-06" ixx="0.010181284675359" ixy="-9.7804842171545e-06" iyy="0.0076304245205899" iyz="0.0019161210025147" />
+            <mass value="1.0" />
+        </inertial>
+        <collision name="Rectangle8">
+            <origin xyz="-0.028477 0.000164 0.043860" rpy="-3.141593 1.570796 0.000000" />
+            <geometry>
+                <box size="0.049401 0.057119 0.111618" />
+            </geometry>
+        </collision>
+        <collision name="Rectangle8">
+            <origin xyz="-0.060019 0.000326 -0.002270" rpy="-3.141593 3.141593 0.000000" />
+            <geometry>
+                <box size="0.048171 0.053767 0.055789" />
+            </geometry>
+        </collision>
+        <visual name="ME_Arm4_me">
+            <origin xyz="0.535749 -0.224078 0.194546" rpy="-0.000000 -1.570796 0.000000" />
+            <geometry>
+                <mesh filename="file://D:/LegionPro5/Documents/coppeliasim_projects/youbot_coppelia/youbot_test_export_urdf_ME_Arm4_me_vis_1.dae" />
+            </geometry>
+            <material name="ME_Arm4_me_material">
+                <color rgba="1.000000 0.618298 0.265957 1.0" />
+            </material>
+        </visual>
+        <visual name="Cylinder2">
+            <origin xyz="0.535749 -0.224078 0.194546" rpy="-0.000000 -1.570796 0.000000" />
+            <geometry>
+                <mesh filename="file://D:/LegionPro5/Documents/coppeliasim_projects/youbot_coppelia/youbot_test_export_urdf_Cylinder2_vis_1.dae" />
+            </geometry>
+            <material name="Cylinder2_material">
+                <color rgba="0.217647 0.217647 0.217647 1.0" />
+            </material>
+        </visual>
+    </link>
+    <joint type="revolute" name="youBotArmJoint4">
+        <axis xyz="0 0 1" />
+        <limit velocity="6.2831854820251" effort="100.0" lower="-1.5707963705063" upper="1.5707963705063" />
+        <parent link="Rectangle8" />
+        <child link="Rectangle7" />
+        <origin xyz="-0.096327 0.000550 0.019030" rpy="-0.000000 -1.570796 0.000000" />
+    </joint>
+    <link name="Rectangle7">
+        <inertial>
+            <origin rpy="1.570796 3.141594 1.588945" xyz="0.000292 -0.000107 0.007734" />
+            <inertia izz="0.0047658205752642" ixz="-1.8724451696112e-06" ixx="0.0081460076146625" ixy="1.1213360439875e-05" iyy="0.0065955895069916" iyz="8.2929302564527e-05" />
+            <mass value="1.0" />
+        </inertial>
+        <collision name="Rectangle7">
+            <origin xyz="-0.000120 -0.000067 -0.003488" rpy="0.018598 -1.570796 0.000000" />
+            <geometry>
+                <box size="0.029626 0.053221 0.096929" />
+            </geometry>
+        </collision>
+        <collision name="Rectangle7">
+            <origin xyz="0.000837 0.016799 0.038712" rpy="1.582286 3.320974 -1.574602" />
+            <geometry>
+                <box size="0.005522 0.056102 0.071700" />
+            </geometry>
+        </collision>
+        <collision name="Rectangle7">
+            <origin xyz="0.039105 -0.000603 0.039122" rpy="3.141358 3.341743 -3.140810" />
+            <geometry>
+                <box size="0.003348 0.030600 0.055800" />
+            </geometry>
+        </collision>
+        <collision name="Rectangle7">
+            <origin xyz="0.000061 -0.016409 0.038998" rpy="1.570488 3.322532 1.572532" />
+            <geometry>
+                <box size="0.005703 0.056365 0.071733" />
+            </geometry>
+        </collision>
+        <collision name="Rectangle7">
+            <origin xyz="-0.040393 -0.000826 0.038878" rpy="-3.129482 3.325750 -0.000183" />
+            <geometry>
+                <box size="0.002379 0.030641 0.055879" />
+            </geometry>
+        </collision>
+        <visual name="ME_Arm5_me_sub1">
+            <origin xyz="0.175516 -0.224628 -0.632075" rpy="3.141593 3.141593 3.141593" />
+            <geometry>
+                <mesh filename="file://D:/LegionPro5/Documents/coppeliasim_projects/youbot_coppelia/youbot_test_export_urdf_ME_Arm5_me_sub1_vis_1.dae" />
+            </geometry>
+            <material name="ME_Arm5_me_sub1_material">
+                <color rgba="0.217647 0.217647 0.217647 1.0" />
+            </material>
+        </visual>
+        <visual name="ME_Arm5_me_sub1">
+            <origin xyz="0.175516 -0.224628 -0.632075" rpy="3.141593 3.141593 3.141593" />
+            <geometry>
+                <mesh filename="file://D:/LegionPro5/Documents/coppeliasim_projects/youbot_coppelia/youbot_test_export_urdf_ME_Arm5_me_sub1_vis_2.dae" />
+            </geometry>
+            <material name="ME_Arm5_me_sub1_material">
+                <color rgba="0.217647 0.217647 0.217647 1.0" />
+            </material>
+        </visual>
+    </link>
+    <joint type="prismatic" name="youBotGripperJoint1">
+        <axis xyz="0 0 1" />
+        <limit velocity="10.0" effort="300.0" lower="0.0" upper="0.025000000372529" />
+        <parent link="Rectangle7" />
+        <child link="Rectangle5" />
+        <origin xyz="-0.000485 -0.000103 0.097342" rpy="-0.000000 1.570796 0.000000" />
+    </joint>
+    <link name="Rectangle5">
+        <inertial>
+            <origin rpy="1.570784 3.141589 -1.570856" xyz="0.011051 -0.000000 0.017717" />
+            <inertia izz="0.00030831505983929" ixz="8.5572244527671e-08" ixx="0.0014742793173593" ixy="9.3073413706294e-09" iyy="0.0014098607004858" iyz="-0.00020971857829022" />
+            <mass value="0.5" />
+        </inertial>
+        <collision name="Rectangle5">
+            <origin xyz="0.022000 -0.000000 0.020150" rpy="0.000000 3.141593 0.000000" />
+            <geometry>
+                <box size="0.015000 0.014001 0.019000" />
+            </geometry>
+        </collision>
+        <collision name="Rectangle5">
+            <origin xyz="-0.000500 -0.000000 0.015150" rpy="-0.186074 4.712375 0.186216" />
+            <geometry>
+                <box size="0.009000 0.014005 0.030002" />
+            </geometry>
+        </collision>
+        <visual name="Rectangle2">
+            <origin xyz="0.729417 -0.224525 0.176001" rpy="-0.000000 -1.570796 0.000000" />
+            <geometry>
+                <mesh filename="file://D:/LegionPro5/Documents/coppeliasim_projects/youbot_coppelia/youbot_test_export_urdf_Rectangle2_vis_1.dae" />
+            </geometry>
+            <material name="Rectangle2_material">
+                <color rgba="1.000000 1.000000 1.000000 1.0" />
+            </material>
+        </visual>
+        <visual name="Rectangle2">
+            <origin xyz="0.729417 -0.224525 0.176001" rpy="-0.000000 -1.570796 0.000000" />
+            <geometry>
+                <mesh filename="file://D:/LegionPro5/Documents/coppeliasim_projects/youbot_coppelia/youbot_test_export_urdf_Rectangle2_vis_2.dae" />
+            </geometry>
+            <material name="Rectangle2_material">
+                <color rgba="0.217647 0.217647 0.217647 1.0" />
+            </material>
+        </visual>
+    </link>
+    <joint type="prismatic" name="youBotGripperJoint2">
+        <axis xyz="0 0 1" />
+        <limit velocity="10.0" effort="300.0" lower="-0.050000000745058" upper="0.0" />
+        <parent link="Rectangle5" />
+        <child link="Rectangle6" />
+        <origin xyz="-0.000000 -0.000000 0.000000" rpy="3.141593 3.141593 -3.141593" />
+    </joint>
+    <link name="Rectangle6">
+        <inertial>
+            <origin rpy="-1.570810 3.141591 1.570728" xyz="0.011052 -0.000001 -0.017717" />
+            <inertia izz="0.00030831183778441" ixz="-1.2849657267402e-07" ixx="0.0014743035233973" ixy="-1.8536651838664e-08" iyy="0.0014098603211991" iyz="-0.00020972274065624" />
+            <mass value="0.5" />
+        </inertial>
+        <collision name="Rectangle6">
+            <origin xyz="0.022000 -0.000000 -0.020150" rpy="-0.000000 3.141593 -0.000000" />
+            <geometry>
+                <box size="0.015000 0.014001 0.019000" />
+            </geometry>
+        </collision>
+        <collision name="Rectangle6">
+            <origin xyz="-0.000500 -0.000001 -0.015150" rpy="3.021388 1.570811 -0.120066" />
+            <geometry>
+                <box size="0.009000 0.014004 0.030002" />
+            </geometry>
+        </collision>
+        <visual name="Rectangle3">
+            <origin xyz="0.729417 -0.224525 0.176001" rpy="-0.000000 -1.570796 0.000000" />
+            <geometry>
+                <mesh filename="file://D:/LegionPro5/Documents/coppeliasim_projects/youbot_coppelia/youbot_test_export_urdf_Rectangle3_vis_1.dae" />
+            </geometry>
+            <material name="Rectangle3_material">
+                <color rgba="1.000000 1.000000 1.000000 1.0" />
+            </material>
+        </visual>
+        <visual name="Rectangle3">
+            <origin xyz="0.729417 -0.224525 0.176001" rpy="-0.000000 -1.570796 0.000000" />
+            <geometry>
+                <mesh filename="file://D:/LegionPro5/Documents/coppeliasim_projects/youbot_coppelia/youbot_test_export_urdf_Rectangle3_vis_2.dae" />
+            </geometry>
+            <material name="Rectangle3_material">
+                <color rgba="0.217647 0.217647 0.217647 1.0" />
+            </material>
+        </visual>
+    </link>
+</robot>
